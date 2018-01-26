@@ -1,0 +1,12 @@
+xxl:
+  job:
+    admin:
+      addresses: "@xxl.job.admin.addresses@"
+    executor:
+      appname: "@xxl.job.executor.appname@"
+      ip: "@xxl.job.executor.ip@"
+      port: "@xxl.job.executor.port@"
+      logpath: "@xxl.job.executor.logpath@"
+    accessToken: "@xxl.job.accessToken@"
+server:
+  port: 9000
